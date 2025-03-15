@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalEventProcessor.Application", "HexagonalEventProcessor.Application\HexagonalEventProcessor.Application.csproj", "{771E7AB5-E25A-4200-8F7C-04CABAD9D352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalEventProcessor.Application", "HexagonalEventProcessor.Application\HexagonalEventProcessor.Application.csproj", "{771E7AB5-E25A-4200-8F7C-04CABAD9D352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalEventProcessor.Domain", "HexagonalEventProcessor.Domain\HexagonalEventProcessor.Domain.csproj", "{A103540B-A867-4350-9F1A-6294BCD6CC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalEventProcessor.Domain", "HexagonalEventProcessor.Domain\HexagonalEventProcessor.Domain.csproj", "{A103540B-A867-4350-9F1A-6294BCD6CC74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalEventProcessor.Infrastructure", "HexagonalEventProcessor.Infrastructure\HexagonalEventProcessor.Infrastructure.csproj", "{9049F9E8-0282-4AF2-8F4E-1708E2D3EB77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalEventProcessor.Infrastructure", "HexagonalEventProcessor.Infrastructure\HexagonalEventProcessor.Infrastructure.csproj", "{9049F9E8-0282-4AF2-8F4E-1708E2D3EB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalEventProcessor.Api", "HexagonalEventProcessor.Api\HexagonalEventProcessor.Api.csproj", "{A892F939-9A62-4B0E-AE3D-24A75C4A59D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonalEventProcessor", "HexagonalEventProcessor\HexagonalEventProcessor.csproj", "{5AAD5A5E-70D0-4D6D-9CE4-8771AB8E77D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{9049F9E8-0282-4AF2-8F4E-1708E2D3EB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9049F9E8-0282-4AF2-8F4E-1708E2D3EB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9049F9E8-0282-4AF2-8F4E-1708E2D3EB77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A892F939-9A62-4B0E-AE3D-24A75C4A59D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A892F939-9A62-4B0E-AE3D-24A75C4A59D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A892F939-9A62-4B0E-AE3D-24A75C4A59D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A892F939-9A62-4B0E-AE3D-24A75C4A59D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAD5A5E-70D0-4D6D-9CE4-8771AB8E77D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAD5A5E-70D0-4D6D-9CE4-8771AB8E77D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAD5A5E-70D0-4D6D-9CE4-8771AB8E77D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAD5A5E-70D0-4D6D-9CE4-8771AB8E77D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

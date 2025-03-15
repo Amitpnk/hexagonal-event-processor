@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HexagonalEventProcessor.Application;
-using HexagonalEventProcessor.Domain.Entities;
 using HexagonalEventProcessor.Domain.Interfaces;
+using Microsoft.Azure.ServiceBus;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using Message = HexagonalEventProcessor.Domain.Entities.Message;
 
 namespace HexagonalEventProcessor.Infrastructure
 {
-    internal class ServiceBusConsumer : IServiceBusConsumer
+    public class ServiceBusConsumer : IServiceBusConsumer
     {
         private readonly IQueueClient _queueClient;
         private readonly MessageProcessorService _processorService;

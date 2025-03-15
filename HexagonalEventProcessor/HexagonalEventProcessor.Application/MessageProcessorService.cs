@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HexagonalEventProcessor.Domain.Entities;
 using HexagonalEventProcessor.Domain.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace HexagonalEventProcessor.Application
 {
@@ -12,14 +13,16 @@ namespace HexagonalEventProcessor.Application
     {
         private readonly IServiceBusConsumer _serviceBusConsumer;
         private readonly IApiService _apiService;
+        private readonly ILogger<MessageProcessorService> _logger;
         private readonly IKafkaProducer _kafkaProducer;
 
         public MessageProcessorService(IServiceBusConsumer serviceBusConsumer,
-            IApiService apiService,
+            IApiService apiService, ILogger<MessageProcessorService> logger,
             IKafkaProducer kafkaProducer)
         {
             _serviceBusConsumer = serviceBusConsumer;
             _apiService = apiService;
+            _logger = logger;
             _kafkaProducer = kafkaProducer;
         }
 
